@@ -8,12 +8,12 @@ class RoombixUiGrailsPlugin {
         "grails-app/views/error.gsp"
     ]
 
-    def dependsOn = [
-        'jquery': ' 1.10.2 > * ',
-        'lesscssResources': ' 1.3.3 > * ',
-        'twitterBootstrap': ' 3.0.0 > * ',
-        'fontAwesomeResources': ' 3.2.1.3 > * '
-    ]
+    // def dependsOn = [
+    //     'jquery': ' 1.10.2 > * ',
+    //     'lesscssResources': ' 1.3.3 > * ',
+    //     'twitterBootstrap': ' 3.0.0 > * ',
+    //     'fontAwesomeResources': ' 3.2.1.3 > * '
+    // ]
 
 
     // TODO Fill in these fields
