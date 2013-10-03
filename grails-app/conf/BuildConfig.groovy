@@ -24,6 +24,7 @@ grails.project.dependency.resolution = {
         // uncomment to disable ehcache
         // excludes 'ehcache'
     }
+    
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     repositories {
         grailsCentral()
@@ -46,14 +47,14 @@ grails.project.dependency.resolution = {
             export = false
         }
 
-        runtime ":jquery:1.10.2"
-        runtime ":jquery-ui:1.8.24"
+        compile ":jquery:1.10.2"
+        compile ":jquery-ui:1.8.24"
 
-        runtime ":lesscss-resources:1.3.3"
-        runtime ":resources:1.2.1"
+        compile ":lesscss-resources:1.3.3"
+        compile ":resources:1.2.1"
 
-        runtime ":twitter-bootstrap:3.0.0"
-        runtime ":font-awesome-resources:3.2.1.3"
+        compile ":twitter-bootstrap:3.0.0"
+        compile ":font-awesome-resources:3.2.1.3"
 
     }
 }
