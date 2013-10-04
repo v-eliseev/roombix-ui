@@ -17,6 +17,13 @@ grails.project.fork = [
     console: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256]
 ]
 
+grails.project.repos.myRepo.url = "http://192.168.0.35:8080/artifactory/HMS"
+grails.project.repos.myRepo.type = "maven"
+grails.project.repos.myRepo.username = "admin"
+grails.project.repos.myRepo.password = "password"
+
+grails.project.repos.default = "myRepo"
+
 grails.project.dependency.resolver = "maven" // or ivy
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
