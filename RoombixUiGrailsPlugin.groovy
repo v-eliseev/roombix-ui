@@ -8,9 +8,7 @@ class RoombixUiGrailsPlugin {
         "grails-app/views/error.gsp"
     ]
 
-    def dependsOn = [
-        'jquery': ' 1.10.2 > * '
-    ]
+    def dependsOn = [:]
 
     // TODO Fill in these fields
     def title = "Roombix Ui Plugin" // Headline display name of the plugin

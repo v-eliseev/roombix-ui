@@ -53,9 +53,6 @@ grails.project.dependency.resolution = {
             export = false
         }
 
-        //compile ":jquery:1.10.2"
-        //compile ":jquery-ui:1.8.24"
-
         //compile ":font-awesome-resources:3.2.1.3"
     }
 }
