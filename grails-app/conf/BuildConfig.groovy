@@ -17,6 +17,12 @@ grails.project.fork = [
     console: [maxMemory: 768, minMemory: 64, debug: false, maxPerm: 256]
 ]
 
+grails.project.repos.myRepo.url = "http://192.168.0.35:8080/artifactory/HMS"
+grails.project.repos.myRepo.username = "admin"
+grails.project.repos.myRepo.password = "password"
+
+grails.project.repos.default = "myRepo"
+
 grails.project.dependency.resolver = "maven" // or ivy
 grails.project.dependency.resolution = {
     // inherit Grails' default dependencies
@@ -24,6 +30,7 @@ grails.project.dependency.resolution = {
         // uncomment to disable ehcache
         // excludes 'ehcache'
     }
+    
     log "warn" // log level of Ivy resolver, either 'error', 'warn', 'info', 'debug' or 'verbose'
     repositories {
         grailsCentral()
@@ -46,14 +53,6 @@ grails.project.dependency.resolution = {
             export = false
         }
 
-        runtime ":jquery:1.10.2"
-        runtime ":jquery-ui:1.8.24"
-
-        runtime ":lesscss-resources:1.3.3"
-        runtime ":resources:1.2.1"
-
-        runtime ":twitter-bootstrap:3.0.0"
-        runtime ":font-awesome-resources:3.2.1.3"
-
+        //compile ":font-awesome-resources:3.2.1.3"
     }
 }

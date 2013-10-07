@@ -5,9 +5,7 @@
   }
 
   roombixUiBootstrap {
-
-    dependsOn 'jquery'
-    dependsOn 'bootstrap'
+    dependsOn 'jquery, bootstrap'
 
     resource url:'less/custom-bootstrap.less', attrs:[rel: "stylesheet/less", type:'css']
   }

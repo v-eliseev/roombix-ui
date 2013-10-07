@@ -16,12 +16,13 @@
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css"> --}%
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css"> --}%
   <g:layoutHead/>
-  <r:require modules="roombixUiBootstrap"/>
-  <r:layoutResources />
+  <asset:stylesheet src="custom-bootstrap.css"/>
+  <asset:stylesheet src="roombix-font-awesome.css"/>
+  <asset:javascript src="jquery/jquery-1.10.2.js"/>
 </head>
 <body>
   <div class="container">
-    %{-- <g:render template="/templates/navigationBar"/>  --}%
+    <g:render template="/templates/navigationBar"/>
     <div class="row show-grid">
       <div class="col-lg-12" id="main_body">
         <g:layoutBody/>
@@ -42,7 +43,7 @@
   <div id="spinner" class="spinner" style="display:none;">
     <g:message code="spinner.alt" default="Loading&hellip;"/>
   </div>
-  <g:javascript library="application"/>
-  <r:layoutResources />  
+  <asset:javascript src="bootstrap.js"/>
+  <asset:javascript src="application.js"/>
 </body>
 </html>

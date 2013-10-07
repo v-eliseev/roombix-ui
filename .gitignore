@@ -30,6 +30,7 @@
 
 # plugin release file
 /*.zip
+/*.sha1
 
 # older plugin install locations
 /plugins
@@ -42,3 +43,10 @@
 # other
 *.iws
 
+*.sublime-project
+*.sublime-workspace
+cobertura.ser
+*.log
+*.log.1
+/.gradle
+plugin.xml

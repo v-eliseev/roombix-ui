@@ -1,6 +1,6 @@
 class RoombixUiGrailsPlugin {
     // the plugin version
-    def version = "0.1"
+    def version = "0.1.11"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "2.3 > *"
     // resources that are excluded from plugin packaging
@@ -8,13 +8,7 @@ class RoombixUiGrailsPlugin {
         "grails-app/views/error.gsp"
     ]
 
-    def dependsOn = [
-        'jquery': ' 1.10.2 > * ',
-        'lesscssResources': ' 1.3.3 > * ',
-        'twitterBootstrap': ' 3.0.0 > * ',
-        'fontAwesomeResources': ' 3.2.1.3 > * '
-    ]
-
+    def dependsOn = [:]
 
     // TODO Fill in these fields
     def title = "Roombix Ui Plugin" // Headline display name of the plugin
