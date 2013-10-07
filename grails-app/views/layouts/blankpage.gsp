@@ -16,8 +16,7 @@
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css"> --}%
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css"> --}%
   <g:layoutHead/>
-  <r:require modules="core, bootstrap" />
-  <r:layoutResources />
+  <asset:stylesheet src="custom-bootstrap.css"/>
 </head>
 <body>
   <div class="container-fluid">
@@ -26,7 +25,7 @@
   <div id="spinner" class="spinner" style="display:none;">
     <g:message code="spinner.alt" default="Loading&hellip;"/>
   </div>
-  <g:javascript library="application"/>
-  <r:layoutResources />  
+  <asset:javascript src="bootstrap.js"/>
+  <asset:javascript src="application.js"/>
 </body>
 </html>
