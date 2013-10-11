@@ -1,1 +1,12 @@
-//=require_tree bootstrap
+//=require bootstrap/transition.js"></script>
+//=require bootstrap/alert.js"></script>
+//=require bootstrap/button.js"></script>
+//=require bootstrap/carousel.js"></script>
+//=require bootstrap/collapse.js"></script>
+//=require bootstrap/dropdown.js"></script>
+//=require bootstrap/modal.js"></script>
+//=require bootstrap/scrollspy.js"></script>
+//=require bootstrap/tab.js"></script>
+//=require bootstrap/tooltip.js"></script>
+//=require bootstrap/popover.js"></script>
+//=require bootstrap/affix.js"></script>

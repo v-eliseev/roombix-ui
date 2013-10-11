@@ -7,8 +7,8 @@
       <li><g:link uri="/">Home</g:link></li>
       <li><g:link>Settings</g:link></li>
     </ul>
-    <ul class="nav navbar-nav navbar-right">
-    	Right block
-    </ul>
-  </div>
+%{--     <g:if test="showLoginBar">
+      <g:render template="template/loginForm"/>
+    </g:if>
+ --}%  </div>
 </nav><!-- /navbar -->
