@@ -15,10 +15,11 @@
   <link rel="apple-touch-icon" sizes="114x114" href="${resource(dir: 'images', file: 'apple-touch-icon-retina.png')}">
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'main.css')}" type="text/css"> --}%
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css"> --}%
-  <g:layoutHead/>
   <asset:stylesheet src="custom-bootstrap.css"/>
   <asset:stylesheet src="roombix-font-awesome.css"/>
   <asset:javascript src="jquery/jquery-1.10.2.js"/>
+  <asset:javascript src="bootstrap.js"/>
+  <g:layoutHead/>
 </head>
 <body>
   <div class="container">
@@ -43,7 +44,6 @@
   <div id="spinner" class="spinner" style="display:none;">
     <g:message code="spinner.alt" default="Loading&hellip;"/>
   </div>
-  <asset:javascript src="bootstrap.js"/>
   <asset:javascript src="application.js"/>
 </body>
 </html>
