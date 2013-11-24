@@ -7,8 +7,9 @@
       <li><g:link uri="/">Home</g:link></li>
       <li><g:link>Settings</g:link></li>
     </ul>
-%{--     <g:if test="showLoginBar">
-      <g:render template="template/loginForm"/>
-    </g:if>
- --}%  </div>
+
+    <sec:ifLoggedIn>
+      <g:render template="/templates/loginInfo"/>  
+    </sec:ifLoggedIn>
+  </div>
 </nav><!-- /navbar -->
