@@ -55,6 +55,6 @@ grails.project.dependency.resolution = {
 
         compile ":webxml:1.4.1"
         compile ":asset-pipeline:1.6.1"
-        compile ":less-asset-pipeline:1.5.3"
+        compile ":less-asset-pipeline:1.5.2"
     }
 }
