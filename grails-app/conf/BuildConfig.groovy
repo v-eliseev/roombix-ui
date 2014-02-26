@@ -49,10 +49,12 @@ grails.project.dependency.resolution = {
 
     plugins {
         build(":release:3.0.1",
-              ":rest-client-builder:1.0.3") {
+              ":rest-client-builder:2.0.1") {
             export = false
         }
 
-        //compile ":font-awesome-resources:3.2.1.3"
+        compile ":webxml:1.4.1"
+        compile ":asset-pipeline:1.6.1"
+        compile ":less-asset-pipeline:1.5.3"
     }
 }
