@@ -17,7 +17,7 @@
   %{-- <link rel="stylesheet" href="${resource(dir: 'css', file: 'mobile.css')}" type="text/css"> --}%
   <g:layoutHead/>
   <asset:stylesheet src="custom-bootstrap.css"/>
-  <asset:javascript src="jquery/jquery-1.10.2.js"/>
+  <asset:javascript src="jquery/jquery-1.11.0.js"/>
 </head>
 <body>
   <div class="container-fluid">
