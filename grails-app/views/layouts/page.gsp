@@ -39,7 +39,7 @@
     </div>
     <div class="row show-grid">
       <div class="col-lg-12" id="copyright">
-        <small>Copyright &copy;2010-2013 Roombix, Ltd.</small>
+        <small>Copyright &copy;2010-2014 Roombix</small>
       </div>
     </div>
   </div>
