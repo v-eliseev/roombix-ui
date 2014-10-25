@@ -19,7 +19,7 @@
   <asset:stylesheet src="custom-bootstrap.css"/>
   <asset:stylesheet src="roombix-font-awesome.css"/>
 
-  <asset:javascript src="jquery/jquery-1.11.0.js"/>
+  <asset:javascript src="jquery/jquery-1.11.1.js"/>
   <asset:javascript src="bootstrap.js"/>
   <g:layoutHead/>
 </head>
